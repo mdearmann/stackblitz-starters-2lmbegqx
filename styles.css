@@ -1,0 +1,128 @@
+:root {
+    --primary: #1F509A;
+    --secondary: #659287;
+    --background: #F1F0E8;
+    --accent: #659287;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button Styles */
+h1.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #6b7d70;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #1e3229;
+}
+
+.btn-danger {
+    background-color: var(--accent);
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #8d6a5b;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Table Styles */
+.table th {
+    background-color: var(--background);
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: var(--background);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.input-group-text {
+    background-color: var(--background);
+    border-color: #ced4da;
+}
+
+/* PK Graph Container Styles */
+.pk-container {
+    display: flex;
+    gap: 20px;
+}
+
+.pk-data {
+    flex: 1;
+}
+
+.pk-graph {
+    flex: 2;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.pk-value {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.pk-label {
+    font-weight: 500;
+    color: var(--primary);
+}
+
+/* Canvas Styles */
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Warning Message Styles */
+.warning-messages {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+    max-width: 350px;
+}
+
+.alert {
+    margin-bottom: 10px;
+    opacity: 0.95;
+}
